@@ -77,23 +77,6 @@
      max-width: 100%;
      vertical-align: middle;
 }
-/* X-small devices(portraits phones, less than 576px)*/
-@media (max-width: 576px)
-.py-1 { 
-        padding: 10px;
-    }
-.py-2 {
-        padding: 15px;
-    }
-.py-3 {
-        padding:20px;
-    }
-.1-heading: {
- 
-        fontsize: 30px
-    }
-
-
 
    
 /* main styling */
@@ -166,12 +149,7 @@ p{
     padding: 5px 50px;
     transition: all 0.8s ease;
 }
-/* X-small devices(portraits phones, less than 576px)*/
-@media (max-width: 576px)
-#navbar ul li a:hover,
-#navbar ul li a.current {
-    padding: 5px 30px;
-}
+
 .menu-wrap input {
     visibility: hidden;
     margin: 0px;
